@@ -1,0 +1,185 @@
+%!TEX program = lualatex
+\documentclass[12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{currfile}
+\usepackage{lastpage}
+\usepackage[table]{xcolor}
+
+\usepackage{geometry}
+\geometry{a4paper,
+left=2cm,
+right=2cm,
+top=3cm,
+bottom=4cm,
+}
+
+\usepackage{fontspec}
+\setmainfont[Path=Fonts/,
+    BoldItalicFont=calibri_bi.ttf,
+    BoldFont      =calibri_b.ttf,
+    ItalicFont    =calibri_i.ttf]{calibri.ttf}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\lfoot{}
+\cfoot{Page \thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+\begin{document}
+
+
+\begin{titlepage}
+\centering{\includegraphics{Images/envisage_logo.pdf}}\\
+\vspace{0.5cm}
+{\fontsize{18pt}{22pt}\selectfont ENhanced VIrtual learning Spaces using Applied Gaming in Education}\\
+\vspace{0.5cm}
+{\fontsize{14pt}{18pt}\selectfont H2020-ICT-24-2016}\\
+\vspace{0.5cm}
+{\fontsize{20pt}{24pt}\selectfont\textbf{DX.X <Deliverable Title>}}\\
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\cellcolor{lightgray}\textbf{Dissemination level:} & <Public (PU) | Confidential (CO) | Classified (CI) > \\
+		\hline
+		\cellcolor{lightgray}\textbf{Contractual data of delivery:} & Month <X>, <Month Xth, 2017>\\
+		\hline
+		\cellcolor{lightgray}\textbf{Actual date of delivery:} & Month <X>, <Month Xth, 2017> \\
+		\hline
+		\cellcolor{lightgray}\textbf{Work package:} & WPX < WP Title > \\
+		\hline
+		\cellcolor{lightgray}\textbf{Task:} & TX.X < Task title > \\
+		\hline
+		\cellcolor{lightgray}\textbf{Type:} & < Report | Demonstrator > \\
+		\hline
+		\cellcolor{lightgray}\textbf{Approval status:} & < alpha | beta | final > \\
+		\hline
+		\cellcolor{lightgray}\textbf{Version:} & <X.X> \\
+		\hline
+		\cellcolor{lightgray}\textbf{Number of pages:} & \pageref{LastPage} \\
+		\hline
+		\cellcolor{lightgray}\textbf{Filename:} & \currfilename \\
+		\hline
+		\multicolumn{2}{|l|}{\textbf{Abstract}}\\
+		\multicolumn{2}{|p{\linewidth}|}{}\\
+		\hline
+		\multicolumn{2}{|p{\linewidth}|}{The information in this document reflects only the author’s views and the European Community is not liable for any use that may be made of the information contained therein. The information in this document is provided as is and no guarantee or warranty is given that the information is fit for any particular purpose.  The user thereof uses the information at its sole risk and liability.}\\
+	\hline
+	\end{tabular}
+\end{table}
+\centering{
+	\includegraphics{Images/h2020_logo.pdf}\\
+	co-funded by the European Union
+}\\
+\end{titlepage}
+
+\section*{Copyright}
+
+© Copyright 2017 ENVISAGE Consortium consisting of:
+\begin{enumerate}
+\item ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS (CERTH)
+\item UNIVERSITA TA MALTA (UOM)
+\item AALBORG UNIVERSITET (AAU) 
+\item GOEDLE IO GMBH (GIO)
+\item ELLINOGERMANIKI AGOGI SCHOLI PANAGEA SAVVA AE (EA)
+\end{enumerate}
+This document may not be copied, reproduced, or modified in whole or in part for any purpose without written permission from the ENVISAGE Consortium. In addition to such written permission to copy, reproduce, or modify this document in whole or part, an acknowledgement of the authors of the document and all applicable portions of the copyright notice must be clearly referenced.
+\newline
+\newline
+All rights reserved.
+\clearpage
+
+\section*{History}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\cellcolor{lightgray}\textbf{Version} & \cellcolor{lightgray}\textbf{Date} & \cellcolor{lightgray}\textbf{Reason} & \cellcolor{lightgray}\textbf{Revised by}\\
+	\hline
+	& & & \\
+	\hline
+	& & & \\
+	\hline
+	& & & \\
+	\hline
+	& & & \\
+	\hline
+	& & & \\
+	\hline
+	& & & \\
+	\hline
+	\multicolumn{4}{p{\linewidth}}{}\\ %This is a little lazy, but it's a quick hack to scale the table to the line width.
+	\end{tabular}
+\end{table}
+
+\section*{Author list}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|l|}
+	\hline
+	\cellcolor{lightgray}\textbf{Organization} & \cellcolor{lightgray}\textbf{Name} & \cellcolor{lightgray}\textbf{Contact Information}\\
+	\hline
+	& & \\
+	\hline
+	& & \\
+	\hline
+	& & \\
+	\hline
+	& & \\
+	\hline
+	& & \\
+	\hline
+	& & \\
+	\hline
+	\multicolumn{3}{p{\linewidth}}{}\\ %This is a little lazy, but it's a quick hack to scale the table to the line width.
+	\end{tabular}
+\end{table}
+
+\clearpage
+
+\section*{Executive Summary}
+
+\clearpage
+\section*{Abbreviations and Acronyms}
+\begin{table}[h]
+	\centering
+
+	\begin{tabular}{ll}
+	\textbf{< HTML >} & < Hypertext Markup Language > \\
+	\textbf{} & \\
+	\textbf{} & \\
+	\textbf{} & \\
+	\multicolumn{2}{p{\linewidth}}{}\\
+	\end{tabular}
+\end{table}
+
+
+\clearpage
+\tableofcontents
+\listoffigures
+\listoftables
+
+\clearpage
+
+\section{First section}
+\subsection{First subsection}
+\section{Second section}
+
+\clearpage
+\nocite{*} %This line will include all references in the bibliography. Include or exclude as needed.
+\bibliographystyle{plain}
+\bibliography{References/bibliography}
+
+\clearpage
+\appendix
+\section{Appendix - First Appendix}
+\section{Appendix - Second Appendix}
+
+\end{document}
